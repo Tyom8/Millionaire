@@ -1,0 +1,556 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.startDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 950px;
+    background-image: url(./pictures/milion.jpg);
+    background-size: cover;
+}
+
+.startMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 500px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.startMenu2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 35px;
+        width: 450px;
+        height: 400px;
+        background-color: #213c96;
+        opacity: 0.9;
+        box-shadow: 10px 5px 5px black;
+        border: 2px solid black;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 35px;
+    width: 350px;
+    height: 130px;
+    background-color: #213c96;
+    opacity: 0.9;
+    box-shadow: 10px 5px 5px black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+    transform-origin: center;
+    transition: 0.5s;
+}
+
+.alldiv {
+    display: none;
+    width: 100%;
+    height: 950px;
+    background-image: url(./pictures/milion.jpg);
+    background-size: cover;
+}
+
+.dollars {
+    width: 2000px;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+.firstdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    height: 940px;
+}
+
+.logo {
+    width: 230px;
+    height: 230px;
+    background-image: url(./pictures/Logo-removebg-preview.png);
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.questbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    height: 480px;
+}
+
+.question {
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: #213c96;
+    border-radius: 500px;
+    width: 750px;
+    height: 150px;
+    border: 4px solid black;
+}
+
+@keyframes last {
+    3% {color: black;}
+    6% {color: red;}
+    9% {color: black;}
+    12% {color: red;}
+    15% {color: black;}
+    18% {color: red;}
+    21% {color: black;}
+    24% {color: red;}
+    27% {color: black;}
+    30% {color: red;}
+    33% {color: black;}
+    36% {color: red;}
+    39% {color: black;}
+    42% {color: red;}
+    45% {color: black;}
+    48% {color: red;}
+    51% {color: black;}
+    53% {color: red;}
+    56% {color: black;}
+    59% {color: red;}
+    62% {color: black;}
+    65% {color: red;}
+    68% {color: black;}
+    71% {color: red;}
+    74% {color: black;}
+    77% {color: red;}
+    80% {color: black;}
+    83% {color: red;}
+    86% {color: black;}
+    89% {color: red;}
+    92% {color: black;}
+    95% {color: red;}
+    98% {color: black;}
+    100% {color: red;}
+}
+
+.lastQuestion {
+    animation-name: last;
+    animation-duration: 7s;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: #213c96;
+    color: red;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 500px;
+    width: 750px;
+    height: 150px;
+    border: 4px solid black;
+}
+
+.exitDiv {
+    display: flex;
+    align-items: center;
+    width: 5%;
+}
+
+.exitImg {
+    width: 100px;
+    height: 95px;
+}
+
+.help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 430px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.fifty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    background-image: url(./pictures/fifty-removebg-preview.png);
+    background-size: cover;
+    font-size: 57px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+}
+
+.hall2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    background-image: url(./pictures/ATA_2018\ \(1\).gif);
+    background-size: cover;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
+
+.phoneimg {
+    position: relative;
+    width: 85px;
+    height: 85px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 220px;
+}
+
+.answerbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    height: 100px;
+}
+
+.answerboxik2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    background-color: #213c96;
+    border-radius: 5px;
+    border: 4px solid black;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.seconddiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 940px;
+}
+
+.moneydiv1 {
+    width: 300px;
+    height: 80px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.moneydiv2 {
+    width: 280px;
+    height: 75px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.moneydiv3 {
+    width: 260px;
+    height: 75px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.moneydiv4 {
+    border: 2px red solid;
+    width: 240px;
+    height: 70px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.moneydiv5 {
+    width: 220px;
+    height: 65px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.moneydiv6 {
+    width: 200px;
+    height: 60px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.moneydiv7 {
+    border: 2px red solid;
+    width: 180px;
+    height: 55px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.moneydiv8 {
+    width: 160px;
+    height: 50px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.moneydiv9 {
+    width: 140px;
+    height: 45px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.moneydiv10 {
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background-color: #213c96;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+/* .clickclass {
+    z-index: 5;
+    transform: translate(-107px, 99px);
+} */
+
+.hallDivNew {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: #213c96;
+    width: 45%;
+    height: 55%;
+    opacity: 0.9;
+}
+
+.hallSmallDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100px;
+    min-height: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.hallDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #213c96;
+    width: 45%;
+    height: 55%;
+    opacity: 0.9;
+}
+
+.loadingDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+}
+
+.loading1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+}
+
+.loading2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+}
+
+.loading3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+}
+
+.ok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    opacity: 0.9;
+    font-size: 35px;
+    font-family: fantasy;
+    font-weight: 400;
+}
+
+
+
+
+body {
+    font-family: sans-serif;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+  }
+  
+  .base-timer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .base-timer__svg {
+    transform: scaleX(-1);
+  }
+  
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+  }
+  
+  .base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+  }
+  
+  .base-timer__path-remaining.green {
+    color: rgb(37, 249, 83);
+  }
+  
+  .base-timer__path-remaining.orange {
+    color: orange;
+  }
+  
+  .base-timer__path-remaining.red {
+    color: red;
+  }
+  
+  .base-timer__label {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: grey;
+  }
+  
